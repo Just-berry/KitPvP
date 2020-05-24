@@ -1,0 +1,33 @@
+Goede avond,
+
+Eindelijk mogen jullie mijn wonderlijk type kunsten bekijken!
+Heeft even geduurt met alles wat er tussen kwam, maar dat heeft de spanning alleen maar goed gedaan
+
+Kleine huishoudelijke mededelingen:
+-Download hele running server met fancy werelden enzo: https://we.tl/t-vY2BYmOgNd 
+-De RdVServer.zip bevat de volledige Network van servers volledig draaiend en klaar
+-MySQLDB bevat de MySQL database die nodig is voor de server, plaats deze waar je een werkende database connectie mee kan maken.
+-server(lobby/kitpvp)-Plugins-KitPvP-DBConfig.yml bevat zoals de naam al verklapt de configuration voor de DB connectie, Pas deze aan naar jullie gewenste setup (Me wachtwoord verklapt niet dus stop maar met de internet af te gaan)
+	-Doe dit voor de lobby & KitPvP (&dev als je die opstart maar die kan stuk zijn)
+-Pas ook de config aan van LuckyPerms naar de nieuwe Database connectie
+	-Doe dit voor alle servers
+-De IdeaProjects bevat de bron code voor jullie lees plezier
+
+Eisen lijstje plus mijn oplossingen:
+1) Spelers worden naar de lobby server gesend wanneer hun health <0 komt. Hun death event word gecancelled (haat respawn schermen)
+2) Spawn kunnen ingames aan gepast worden door een gold block te plaatsen (geef je zelf OP om dit te kunnen doen)
+3) In de lobby hangen bordjes met de server namen. Wanneer je hierop rechtsklikt teleporteer je naar de gekozen server (indien deze aanstaat)
+4) In de KitPvP server krijg je een mooie Arrow. Rechtsklik met deze in je hand en een mooie menu komt omhoog, waar je vervolgens je kit kan kiezen
+5) Kills/deaths worden opgeslagen in de MySQL DB
+6) Zowel in de lobby als in de KitPvP server word er een scoreboard getoont met de KD informatie van de speler. In KitPvP update deze bij een kill
+7) Maven check.
+
+Extra:
+/lobby in KitPvP teleporteerd je terug naar de lobby server
+Worldguard word gebruikt voor de anti PvP zones en het verkomen van griefen
+Essentials voor de mooie prefixes
+LP voor de perms voor deze mooie prefixes on join krijgt iedereen default KitPvPer rank
+WE voor wat server setup/builds
+
+Rest als er iets mist hoor ik dat graag :)
+
